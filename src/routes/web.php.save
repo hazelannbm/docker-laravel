@@ -1,0 +1,20 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Failed to save 'web.php': Unable to write file 'vscode-remote://codespaces+psychic-eureka-5j555gvvwr5276wq/workspaces/docker-laravel/src/routes/web.php' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/workspaces/docker-laravel/src/routes/web.php')
